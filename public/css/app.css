@@ -1,0 +1,74 @@
+body {
+    background-color: pink
+}
+
+body {
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 8px solid white;
+    padding: 10px;
+}
+
+h1{
+  font-size: 50px;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+
+.button {
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  border: 1px solid white;
+  font-family: Verdana;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button:hover {
+  color: #e66a8c;
+  background-color: white;
+  cursor: pointer;
+}
+
+.h1 {
+    font size:2.5rem;
+}
+
+.inputContainer{
+position: relative;
+}
+
+.title {
+  margin-bottom: 0.5rem
+}
+
+.weatherDescription {
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.weatherImage {
+  width: 10rem;
+  margin-bottom: 0.5rem
+}
+
+.weatherMain{
+  font-size: 2rem;
+}
+
+.weatherHumidity{
+  font-size: 2rem;
+}
+
+.weatherTemperature{
+  font-size: 2rem;
+}
